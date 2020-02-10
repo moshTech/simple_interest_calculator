@@ -40,7 +40,7 @@ class _SimpleInterestFormState extends State<SimpleInterestForm> {
 
   @override
   Widget build(BuildContext context) {
-    TextStyle textStyle = Theme.of(context).textTheme.headline6;
+    TextStyle textStyle = Theme.of(context).textTheme.title;
     return Scaffold(
       appBar: AppBar(
         title: Text('Simple Interest Calculator'),
